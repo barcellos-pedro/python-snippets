@@ -39,6 +39,9 @@ class TestStringMethods(unittest.TestCase):
             self.assertEqual(ep.temporada, temporada)
 
     def test_incluir_episodio(self):
+        """
+        Inclui um episodio em uma lista
+        """
         lista = []
         epi = Episodio(99, 99, "Broklyn 99", 99)
 
